@@ -55,7 +55,6 @@ async function createUser(user : {
 
     users.push({id, ...user})
     fs.writeFile("./src/data/users.json", JSON.stringify(users,null,2))
-
     return id
 }
 
