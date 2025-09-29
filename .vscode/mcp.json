@@ -3,7 +3,7 @@
 		"test-mcp-server": {
 			"type": "stdio",
 			"command": "npm",
-			"args": ["build/server.js"],
+			"args": ["run", "server:dev"],
 			"cwd": "${workspaceFolder}",
 			"dev": {
 				"watch": "build/**/*.js",

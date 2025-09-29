@@ -1,0 +1,4 @@
+{
+  "command": "tsx",
+  "args": ["src/server.ts"]
+}
